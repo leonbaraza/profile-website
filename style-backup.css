@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: #b6b5b5;
+    margin: 0;
+    padding: 0;
+} */
+.section{
+    width: 100%;
+    height: 95vh;
+    background-image: url('bg.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: powderblue;
+    padding: 15px 10px;
+    position: relative;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav_links li a{
+    transition: all 0.5s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: red;
+}
+
+.cont_link button{
+    background-color: grey;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+button:hover{
+    background-color: rosybrown;
+}
+
+
+/*  Section css */
+
+.text-container{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.text-container p:nth-child(2){
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: #101010;
+}
+
+.text-container p:nth-child(3){
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.text-container p{
+    margin: 45px 0px 25px;
+}
+
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 20%;
+}
+
+.text-container button{
+    width: 130px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+.about-btn{
+    border: 2px solid black;
+}
+
+.blog-btn{
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none;
+}
+
+.model{
+    width: 400px;
+    height: 560px;
+    position: absolute;
+    left: 70%;
+    bottom: 0px;
+}
+
+.about-container{
+    width: 80%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: inset hoff voff blur #000;
+}
+
+/*  Section css */
+
+
+
+
+
+
+<div class="row">
+        <div class="col">
+            <p class="intro-message">Fill form to send me a message:</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Detailed Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <div class="col">
+            <p class="intro-message">Or contact me directly on:- </p>
+            <div class="contact-details mx-auto d-block">
+                <dl class="row">
+                    <dt class="col-sm-6">Phone Number</dt>
+                    <dd class="col-sm-6">0712345678</dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-sm-6">Email Address</dt>
+                    <dd class="col-sm-6">techcampkenya@gmail.com</dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-sm-6">Location</dt>
+                    <dd class="col-sm-6">Nairobi, Kimathi Str.</dd>
+                </dl>
+            </div>
+        </div>
+
+    </div>
